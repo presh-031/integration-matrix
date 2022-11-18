@@ -25,19 +25,34 @@ const Info = () => {
       </InfoText>
       <CardsContainer>
         <Card>
-          <CardIcon></CardIcon>
-          <CardHeading></CardHeading>
-          <CardText></CardText>
+          <CardIcon>
+            <img src={flag} alt="flag" />
+          </CardIcon>
+          <CardHeading>180+ Countries Covered</CardHeading>
+          <CardText>
+            Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
+            receive SDKs for Java, NodeJS, PHP and Python.
+          </CardText>
         </Card>
         <Card>
-          <CardIcon></CardIcon>
-          <CardHeading></CardHeading>
-          <CardText></CardText>
+          <CardIcon>
+            <img src={speed} alt="speed" />
+          </CardIcon>
+          <CardHeading>Simple and Quick Implementation</CardHeading>
+          <CardText>
+            Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
+            receive SDKs for Java, NodeJS, PHP and Python.
+          </CardText>
         </Card>
         <Card>
-          <CardIcon></CardIcon>
-          <CardHeading></CardHeading>
-          <CardText></CardText>
+          <CardIcon>
+            <img src={data} alt="data" />
+          </CardIcon>
+          <CardHeading>Accurate and Precise Data to Implement</CardHeading>
+          <CardText>
+            Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
+            receive SDKs for Java, NodeJS, PHP and Python.
+          </CardText>
         </Card>
       </CardsContainer>
     </StyledInfo>
