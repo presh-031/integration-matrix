@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
 import Trusted from "./components/Trusted";
+import Usage from "./components/Usage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Trusted />
       <Info />
+      <Usage />
     </div>
   );
 }
