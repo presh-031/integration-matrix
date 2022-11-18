@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeading,
-  CardIcon,
-  CardsContainer,
-  CardText,
-  InfoHeading,
-  InfoText,
-  StyledInfo,
-} from "./styled/Info.styled";
+import { Card, CardsContainer, InfoHeading, InfoText, StyledInfo } from "./styled/Info.styled";
 
 import flag from "../assets/flag.svg";
 import speed from "../assets/speed.svg";
@@ -25,34 +16,34 @@ const Info = () => {
       </InfoText>
       <CardsContainer>
         <Card>
-          <CardIcon>
+          <div>
             <img src={flag} alt="flag" />
-          </CardIcon>
-          <CardHeading>180+ Countries Covered</CardHeading>
-          <CardText>
+          </div>
+          <p>180+ Countries Covered</p>
+          <p>
             Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
             receive SDKs for Java, NodeJS, PHP and Python.
-          </CardText>
+          </p>
         </Card>
         <Card>
-          <CardIcon>
+          <div>
             <img src={speed} alt="speed" />
-          </CardIcon>
-          <CardHeading>Simple and Quick Implementation</CardHeading>
-          <CardText>
+          </div>
+          <p>Simple and Quick Implementation</p>
+          <p>
             Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
             receive SDKs for Java, NodeJS, PHP and Python.
-          </CardText>
+          </p>
         </Card>
         <Card>
-          <CardIcon>
+          <div>
             <img src={data} alt="data" />
-          </CardIcon>
-          <CardHeading>Accurate and Precise Data to Implement</CardHeading>
-          <CardText>
+          </div>
+          <p>Accurate and Precise Data to Implement</p>
+          <p>
             Our Exchange rate API is built for developers. We make it easy to plug-in to yout existing software. You’ll
             receive SDKs for Java, NodeJS, PHP and Python.
-          </CardText>
+          </p>
         </Card>
       </CardsContainer>
     </StyledInfo>
