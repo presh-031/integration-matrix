@@ -57,6 +57,7 @@ export const LeftSection = styled.div`
 export const RightSection = styled.div`
   outline: 1px solid red;
   padding: 0;
+
   img {
     width: 24.7rem;
     /* height: 28rem; */
