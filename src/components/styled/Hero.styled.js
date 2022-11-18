@@ -49,6 +49,7 @@ export const FreeTrialBtn = styled.button`
 
 export const RightSection = styled.div`
   outline: 1px solid red;
+  margin-top: 4rem;
 `;
 
 export const HeroImage = styled.img`

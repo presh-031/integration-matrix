@@ -1,4 +1,4 @@
-import { LeftSection, RightSection } from "./styled/Header.styled";
+import { LeftSection, RightSection } from "./styled/Hero.styled";
 import { FreeTrialBtn, GetStartedBtn, HeroImage, InfoText, StyledHero, WelcomeText } from "./styled/Hero.styled";
 
 import heroImg from "../assets/heroimg.svg";
