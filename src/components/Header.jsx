@@ -1,4 +1,4 @@
-import { LeftSection, RightSection, StyledHeader } from "./styled/Header.styled";
+import { LeftSection, MenuContainer, RightSection, StyledHeader } from "./styled/Header.styled";
 import menu from "../assets/menu.svg";
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
         <p>News</p>
         <p>Contact</p>
       </RightSection>
-      <div>
+      <MenuContainer>
         <img src={menu} alt="menu" />
-      </div>
+      </MenuContainer>
     </StyledHeader>
   );
 };

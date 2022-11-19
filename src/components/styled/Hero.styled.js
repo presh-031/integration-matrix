@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const StyledHero = styled.section`
   padding: 0 2rem;
   padding-top: 4.8rem;
+  @media (min-width: 1200px) {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    padding: 0 12rem;
+  }
 `;
 export const LeftSection = styled.div``;
 export const WelcomeText = styled.p`
@@ -50,6 +57,9 @@ export const FreeTrialBtn = styled.button`
 export const RightSection = styled.div`
   outline: 1px solid red;
   margin-top: 4rem;
+  @media (min-width: 1200px) {
+    margin: 0;
+  }
 `;
 
 export const HeroImage = styled.img`
