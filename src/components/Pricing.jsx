@@ -1,4 +1,12 @@
-import { PlanName, PlanPrice, PricingCard, PricingHeader, PricingInfo, StyledPricing } from "./styled/Pricing.styled";
+import {
+  CardsContainer,
+  PlanName,
+  PlanPrice,
+  PricingCard,
+  PricingHeader,
+  PricingInfo,
+  StyledPricing,
+} from "./styled/Pricing.styled";
 
 import check from "../assets/check.svg";
 
@@ -10,7 +18,7 @@ const Pricing = () => {
         Street Rates currency exchange API provides real time trusted exchange rate for you. choose the plan that works
         for you best.
       </PricingInfo>
-      <div>
+      <CardsContainer>
         <PricingCard>
           <PlanName>Basic Plan</PlanName>
           <PlanPrice>$0/mth</PlanPrice>
@@ -104,7 +112,7 @@ const Pricing = () => {
           </ul>
           <button>Select Plan</button>
         </PricingCard>
-      </div>
+      </CardsContainer>
     </StyledPricing>
   );
 };
