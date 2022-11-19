@@ -11,8 +11,9 @@ export const StyledTrusted = styled.section`
   justify-content: space-between;
   @media (min-width: 1200px) {
     margin: 0;
+    margin-top: 8rem;
     padding: 4rem 12rem;
-    padding-right: 29.3rem;
+    padding-right: 15.3rem;
   }
 `;
 
