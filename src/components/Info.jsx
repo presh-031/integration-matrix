@@ -35,7 +35,7 @@ const Info = () => {
             receive SDKs for Java, NodeJS, PHP and Python.
           </p>
         </Card>
-        <Card>
+        <Card style={{ border: "none" }}>
           <div>
             <img src={data} alt="data" />
           </div>

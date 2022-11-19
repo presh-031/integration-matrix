@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const StyledPricing = styled.div`
-  outline: 1px solid red;
-  margin: 0 3.9rem;
-  @media (min-width: 1200px) {
-    margin: 0 12rem;
+  margin: 0 10.4%;
+  @media (min-width: 1000px) {
+    margin: 0 8.3%;
   }
 `;
 
@@ -15,7 +14,7 @@ export const PricingHeader = styled.p`
   color: #334155;
   text-align: center;
   margin-bottom: 0.8rem;
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     font-size: 2.8rem;
     line-height: 3.2rem;
     letter-spacing: -0.002em;
@@ -29,7 +28,7 @@ export const PricingInfo = styled.p`
   line-height: 1.8rem;
   text-align: center;
   color: #334155;
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     font-size: 1.4rem;
     margin: 0 auto;
     line-height: 2rem;
@@ -43,27 +42,37 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  @media (min-width: 1200px) {
-    flex-direction: row;
-    gap: 3rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  @media (min-width: 766px) and (max-width: 1000px) {
+    /* gap: 2.5%; */
+    width: 650px;
+    margin: 0 auto;
+  }
+  @media (min-width: 1001) {
+    /* gap: 2.5%; */
+    width: 850px;
+    margin: 0 auto;
   }
 `;
 
 export const PricingCard = styled.div`
+  /* width: 94%; */
   width: 27.9rem;
   margin: 0 auto;
   background-color: #f1f5f9;
-  padding: 2.4rem 4.4rem 1.8rem 4.4rem;
+  padding: 2.4rem 4.67rem 1.8rem 4.67rem;
   border-radius: 1.6rem;
-  outline: 1px solid red;
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
+    /* width: 31.583%; */
     width: 37.9rem;
+    padding: 3.2rem 6.2rem 2.6rem 6.2rem;
     border-radius: 2rem;
   }
   ul {
     list-style: none;
     li {
-      outline: 1px solid red;
       display: flex;
       align-items: center;
       gap: 1.94rem;
@@ -72,7 +81,7 @@ export const PricingCard = styled.div`
       line-height: 1.472rem;
       letter-spacing: 0.001em;
       margin-bottom: 1.445rem;
-      @media (min-width: 1200px) {
+      @media (min-width: 1000px) {
         gap: 2.6rem;
         font-size: 1.4rem;
         line-height: 2rem;
@@ -91,7 +100,7 @@ export const PricingCard = styled.div`
     border: none;
     margin-top: 2.2rem;
     border-radius: 0.294rem;
-    @media (min-width: 1200px) {
+    @media (min-width: 1000px) {
       width: 24.9rem;
       height: 5.6rem;
       border-radius: 0.4rem;
@@ -102,12 +111,11 @@ export const PricingCard = styled.div`
 
 export const PlanName = styled.p`
   text-align: center;
-  outline: 1px solid blue;
   font-weight: 700;
   font-size: 1.325rem;
   line-height: 1.76rem;
   margin-bottom: 2.8rem;
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     font-size: 1.8rem;
     line-height: 2.4rem;
     margin-bottom: 3.9rem;
@@ -121,7 +129,7 @@ export const PlanPrice = styled.p`
   letter-spacing: -0.002em;
   text-align: center;
   margin-bottom: 2.4rem;
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     font-size: 3.2rem;
     line-height: 4rem;
     margin-bottom: 3.4rem;

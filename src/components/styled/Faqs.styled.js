@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export const StyledFaqs = styled.section`
-  outline: 1px solid red;
+  margin: 0 auto;
   margin-top: 4.8rem;
+  max-width: 72rem;
+  @media (min-width: 600px) {
+    /* width: 50%; */
+    width: 80%;
+  }
   @media (min-width: 1200px) {
-    width: 72rem;
+    /* width: 50%; */
     margin: 0 auto;
     margin-top: 8rem;
   }
@@ -23,9 +28,10 @@ export const FaqsHeading = styled.p`
   }
 `;
 export const Question = styled.div`
-  padding: 1.3rem 1.4rem;
+  padding: 1.3rem 4.28%;
   display: flex;
-  margin: 0 2.4rem;
+  margin: 0 6.8%;
+
   border-bottom: 0.45px solid #c6c8d3;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +56,6 @@ export const Question = styled.div`
     @media (min-width: 1200px) {
       width: 2.4rem;
       height: 2.4rem;
-      outline: 1px solid red;
       object-fit: cover;
     }
   }

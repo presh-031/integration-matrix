@@ -5,15 +5,19 @@ export const StyledFooter = styled.footer`
   margin-top: 11.97rem;
   color: #f8fafc;
   padding: 6.6rem 1.6rem 0 1.6rem;
+  @media (min-width: 700px) {
+    margin: 0;
+    margin-top: 15rem;
+    padding: 5.6rem 4rem 0 4rem;
+  }
   @media (min-width: 1200px) {
     margin: 0;
     margin-top: 15rem;
     padding: 5.6rem 12rem 0 12rem;
   }
   div {
-    outline: 1px solid red;
     text-align: center;
-    @media (min-width: 1200px) {
+    @media (min-width: 700px) {
       text-align: left;
     }
     p {
@@ -26,20 +30,20 @@ export const StyledFooter = styled.footer`
       font-size: 1.8rem;
       line-height: 2.4rem;
       margin-bottom: 4.2rem;
-      @media (min-width: 1200px) {
+      @media (min-width: 700px) {
         justify-content: flex-start;
         margin-bottom: 1.6rem;
       }
       img {
         width: 1.32rem;
-        @media (min-width: 1200px) {
+        @media (min-width: 700px) {
           display: none;
         }
       }
     }
     ul {
       display: none;
-      @media (min-width: 1200px) {
+      @media (min-width: 700px) {
         display: block;
         list-style: none;
         font-weight: 400;
@@ -56,7 +60,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const GridContainer = styled.div`
-  @media (min-width: 1200px) {
+  @media (min-width: 700px) {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
   }

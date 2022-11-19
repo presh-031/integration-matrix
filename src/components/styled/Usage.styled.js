@@ -1,19 +1,22 @@
 import styled from "styled-components";
 
 export const StyledUsage = styled.section`
-  margin: 4.8rem 3rem;
-  @media (min-width: 1200px) {
-    outline: 1px solid red;
+  margin: 4.8rem 8%;
+
+  @media (min-width: 800px) {
     margin: 0;
     margin-top: 8rem;
-    margin: 8rem 22rem;
+    margin: 8rem 15.277%;
     display: flex;
     justify-content: space-between;
   }
 `;
 export const LeftSection = styled.div`
-  @media (min-width: 1200px) {
+  @media (min-width: 800px) {
     width: 40.5rem;
+  }
+  @media (min-width: 1000px) {
+    width: 40.5%;
   }
   p:nth-of-type(1) {
     color: #334155;
@@ -21,7 +24,7 @@ export const LeftSection = styled.div`
     font-size: 1.8rem;
     line-height: 2.4rem;
     margin-bottom: 0.8rem;
-    @media (min-width: 1200px) {
+    @media (min-width: 800px) {
       font-size: 2.4rem;
       line-height: 3.2rem;
       margin-bottom: 2.4rem;
@@ -33,7 +36,7 @@ export const LeftSection = styled.div`
     font-size: 1.2rem;
     line-height: 1.8rem;
     margin-bottom: 2.4rem;
-    @media (min-width: 1200px) {
+    @media (min-width: 800px) {
       font-size: 1.4rem;
       line-height: 2rem;
       letter-spacing: 0.001em;
@@ -41,13 +44,12 @@ export const LeftSection = styled.div`
     }
   }
   ul {
-    outline: 1px solid red;
     list-style-type: none;
     li {
       display: flex;
       gap: 1.6rem;
       align-items: center;
-      outline: 1px solid red;
+
       div {
         background-color: #0064f1;
         width: 1.8rem;
@@ -55,18 +57,16 @@ export const LeftSection = styled.div`
         border-radius: 50%;
       }
       p {
-        align-self: center;
         font-weight: 600;
         font-size: 2rem;
         line-height: 1.8rem;
-        outline: 1px solid red;
+
         letter-spacing: -0.02em;
         color: #334155;
       }
     }
   }
   a {
-    outline: 1px solid red;
     color: #0064f1;
     display: block;
     margin-top: 2.4rem;
@@ -77,20 +77,23 @@ export const LeftSection = styled.div`
   }
 `;
 export const RightSection = styled.div`
-  outline: 1px solid red;
   padding: 0;
-  @media (min-width: 1200px) {
+  margin-top: 4.8rem;
+  @media (min-width: 800px) {
     display: grid;
+    margin: 0;
+    width: 48%;
     place-items: center;
   }
   img {
     width: 24.7rem;
+    /* width: 78%; */
     /* height: 28rem; */
     margin: 0 auto;
     display: block;
-    outline: 1px solid blue;
-    @media (min-width: 1200px) {
-      width: 38rem;
+
+    @media (min-width: 800px) {
+      width: 100%;
       height: 34rem;
     }
   }

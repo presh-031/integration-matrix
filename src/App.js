@@ -10,7 +10,7 @@ import Usage from "./components/Usage";
 
 function App() {
   return (
-    <div>
+    <div style={{ "max-width": "1440px", margin: "0 auto" }}>
       <Header />
       <Hero />
       <Trusted />
