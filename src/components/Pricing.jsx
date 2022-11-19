@@ -9,6 +9,17 @@ import {
 } from "./styled/Pricing.styled";
 
 import check from "../assets/check.svg";
+import checkLight from "../assets/checkLight.svg";
+
+const secondCard = {
+  backgroundColor: "#0059E8",
+  color: "#F8FAFC",
+};
+
+const secondCardBtn = {
+  color: "#0059E8",
+  backgroundColor: "#fff",
+};
 
 const Pricing = () => {
   return (
@@ -50,36 +61,36 @@ const Pricing = () => {
           </ul>
           <button>Select Plan</button>
         </PricingCard>
-        <PricingCard>
+        <PricingCard style={secondCard}>
           <PlanName>Pro Plan</PlanName>
           <PlanPrice>$20/mth</PlanPrice>
           <ul>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="check" />
               <p>500,000 Requests monthly</p>
             </li>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="check" />
               <p>Update twice daily</p>
             </li>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="check" />
               <p>Email and Phone support</p>
             </li>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="check" />
               <p>Currency volatility</p>
             </li>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="check" />
               <p>Time frame queries</p>
             </li>
             <li>
-              <img src={check} alt="check" />
+              <img src={checkLight} alt="checkt" />
               <p>80 Countries</p>
             </li>
           </ul>
-          <button>Select Plan</button>
+          <button style={secondCardBtn}>Select Plan</button>
         </PricingCard>
         <PricingCard>
           <PlanName>Enterprise Plan</PlanName>

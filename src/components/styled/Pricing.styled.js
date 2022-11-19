@@ -61,6 +61,7 @@ export const PricingCard = styled.div`
   /* width: 94%; */
   width: 27.9rem;
   margin: 0 auto;
+  border: 1px solid #d7e8ff;
   background-color: #f1f5f9;
   padding: 2.4rem 4.67rem 1.8rem 4.67rem;
   border-radius: 1.6rem;

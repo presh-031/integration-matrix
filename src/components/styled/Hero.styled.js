@@ -46,6 +46,12 @@ export const InfoText = styled.p`
   }
 `;
 
+export const BtnsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+`;
+
 export const GetStartedBtn = styled.button`
   font-weight: 600;
   font-size: 1.4rem;
@@ -72,7 +78,7 @@ export const FreeTrialBtn = styled.button`
   border-radius: 0.4rem;
   border: 1px solid #0062ff;
   padding: 0.6rem 1.2rem;
-  border: none;
+  background-color: #fff;
   @media (min-width: 830px) {
     font-size: 1.6rem;
     line-height: 2.4rem;

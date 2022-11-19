@@ -4,6 +4,7 @@ import { Card, CardsContainer, InfoHeading, InfoText, StyledInfo } from "./style
 import flag from "../assets/flag.svg";
 import speed from "../assets/speed.svg";
 import data from "../assets/data.svg";
+
 const Info = () => {
   return (
     <StyledInfo>

@@ -60,6 +60,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const GridContainer = styled.div`
+  max-width: 1440px;
   @media (min-width: 700px) {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -69,6 +70,7 @@ export const FinalContainer = styled.section`
   display: flex;
   border-top: 1px solid #cbd5e1;
   align-items: center;
+  max-width: 1440px;
   justify-content: space-between;
   padding: 3.95rem 0;
 

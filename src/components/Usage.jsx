@@ -13,15 +13,15 @@ const Usage = () => {
         <ul>
           <li>
             <div></div>
-            <p>Fast and easy set up</p>
+            <span>Fast and easy set up</span>
           </li>
           <li>
             <div></div>
-            <p>Street Rates Data Swagger</p>
+            <span>Street Rates Data Swagger</span>
           </li>
           <li>
             <div></div>
-            <p>Robust Github Repository</p>
+            <span>Robust Github Repository</span>
           </li>
         </ul>
         <a href="#">View Documentation</a>

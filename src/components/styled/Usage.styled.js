@@ -48,19 +48,21 @@ export const LeftSection = styled.div`
     li {
       display: flex;
       gap: 1.6rem;
-      align-items: center;
+      margin-bottom: 2.4rem;
 
+      align-items: center;
       div {
         background-color: #0064f1;
         width: 1.8rem;
         height: 1.8rem;
         border-radius: 50%;
       }
-      p {
+      span {
         font-weight: 600;
         font-size: 2rem;
-        line-height: 1.8rem;
 
+        line-height: 1.8rem;
+        height: 100%;
         letter-spacing: -0.02em;
         color: #334155;
       }

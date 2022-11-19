@@ -1,4 +1,4 @@
-import { LeftSection, RightSection } from "./styled/Hero.styled";
+import { BtnsContainer, LeftSection, RightSection } from "./styled/Hero.styled";
 import { FreeTrialBtn, GetStartedBtn, HeroImage, InfoText, StyledHero, WelcomeText } from "./styled/Hero.styled";
 
 import heroImg from "../assets/heroimg.svg";
@@ -10,10 +10,10 @@ const Hero = () => {
         <InfoText>
           Accurate and reliable real time historical market data API for hundreds of global currencies.
         </InfoText>
-        <div>
+        <BtnsContainer>
           <GetStartedBtn>Get Started</GetStartedBtn>
           <FreeTrialBtn>Start Your Free Trial</FreeTrialBtn>
-        </div>
+        </BtnsContainer>
       </LeftSection>
       <RightSection>
         <HeroImage src={heroImg} alt="cards" />

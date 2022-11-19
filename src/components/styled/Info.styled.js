@@ -68,6 +68,9 @@ export const Card = styled.div`
     padding: 0;
     padding-top: 1rem;
   }
+  @media (min-width: 1300px) {
+    border-right: 1px solid #cbd5e1;
+  }
   div {
     border: 1px solid #4e97ff;
     background-color: #d7e8ff;
