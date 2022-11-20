@@ -59,6 +59,10 @@ export const StyledFooter = styled.footer`
 
       li {
         margin-bottom: 2.4rem;
+        /*  truncating */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         @media (min-width: 700px) and (max-width: 800px) {
           font-size: 1rem;
         }
