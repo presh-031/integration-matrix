@@ -56,11 +56,12 @@ export const StyledFooter = styled.footer`
         letter-spacing: 0.001em;
         color: #f8fafc;
       }
-      @media (min-width: 700px) and (max-width: 800px) {
-        font-size: 1rem;
-      }
+
       li {
         margin-bottom: 2.4rem;
+        @media (min-width: 700px) and (max-width: 800px) {
+          font-size: 1rem;
+        }
       }
     }
   }
