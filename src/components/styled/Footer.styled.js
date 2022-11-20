@@ -34,7 +34,7 @@ export const StyledFooter = styled.footer`
         justify-content: flex-start;
         margin-bottom: 1.6rem;
       }
-      @media (max-width: 700px) and (max-width: 800px) {
+      @media (min-width: 700px) and (max-width: 800px) {
         font-size: 1.4rem;
       }
       img {
@@ -56,7 +56,7 @@ export const StyledFooter = styled.footer`
         letter-spacing: 0.001em;
         color: #f8fafc;
       }
-      @media (max-width: 700px) and (max-width: 800px) {
+      @media (min-width: 700px) and (max-width: 800px) {
         font-size: 1rem;
       }
       li {
