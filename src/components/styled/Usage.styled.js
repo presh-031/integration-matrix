@@ -89,11 +89,13 @@ export const RightSection = styled.div`
   }
   img {
     width: 24.7rem;
-    /* width: 78%; */
     /* height: 28rem; */
     margin: 0 auto;
     display: block;
 
+    @media (max-width: 320px) {
+      width: 78%;
+    }
     @media (min-width: 800px) {
       width: 100%;
       height: 34rem;

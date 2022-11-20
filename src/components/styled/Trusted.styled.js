@@ -64,6 +64,10 @@ export const CompanyLogos = styled.img`
   width: 9.1rem;
   height: 1.795rem;
 
+  @media (max-width: 300px) {
+    width: 5.2rem;
+    height: 2rem;
+  }
   @media (min-width: 1000px) {
     width: 10.2rem;
     height: 3rem;

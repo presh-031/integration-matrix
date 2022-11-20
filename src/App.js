@@ -1,4 +1,5 @@
-import "./App.css";
+import "./index.css";
+
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

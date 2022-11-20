@@ -78,10 +78,16 @@ export const FinalContainer = styled.section`
     font-size: 1.8rem;
     font-weight: 800;
     line-height: 2.4rem;
+    @media (max-width: 330px) {
+      font-size: 1.6rem;
+    }
   }
   p:nth-of-type(2) {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.8rem;
+    @media (max-width: 330px) {
+      font-size: 1rem;
+    }
   }
 `;

@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const StyledPricing = styled.div`
   margin: 0 10.4%;
+
+  @media (max-width: 356px) {
+    width: 100%;
+    margin: 0 auto;
+  }
   @media (min-width: 1000px) {
     margin: 0 8.3%;
   }
@@ -42,6 +47,8 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  margin: 0 auto;
+
   flex-direction: row;
   flex-wrap: wrap;
   width: fit-content;
@@ -65,6 +72,10 @@ export const PricingCard = styled.div`
   background-color: #f1f5f9;
   padding: 2.4rem 4.67rem 1.8rem 4.67rem;
   border-radius: 1.6rem;
+  @media (max-width: 320px) {
+    width: 100%;
+    padding: 2.4rem 1.8rem;
+  }
   @media (min-width: 1000px) {
     /* width: 31.583%; */
     width: 37.9rem;
@@ -101,6 +112,11 @@ export const PricingCard = styled.div`
     border: none;
     margin-top: 2.2rem;
     border-radius: 0.294rem;
+    @media (max-width: 300px) {
+      margin: 0 auto;
+      display: block;
+      margin-top: 2.2rem;
+    }
     @media (min-width: 1000px) {
       width: 24.9rem;
       height: 5.6rem;
